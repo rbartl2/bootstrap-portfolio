@@ -4,67 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Rebecca Bartl</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
 </head>
 <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Rebecca Bartl</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
+            <a class="navbar-brand" href="#">Rebecca Bartl</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/rbartl2">Github</a>
+                </li>
+                </ul>
+            </div>
+        </nav>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1>Portfolio</h1>
+    <div class="container grid-3 center">
+        <h1>Portfolio</h1>
+        <hr>
+            <div class="card-container">
+            <div class="card" style="width: 30rem; height: 26rem;">
+                <img src="project-1.png" class="card-img-top" alt="huddle">
+                <div class="card-body">
+                    <h5 class="card-title">Huddle</h5>
+                    <p class="card-text">Team project showcasing NFL news and player stats.</p>
+                    <a href="https://github.com/blakeneely/project1" class="card-link">Github</a>
+                    <a href="https://blakeneely.github.io/project1/" class="card-link">Deployed</a>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <hr>
-                </div>
+            <div class="card" style="width: 30rem; height: 26rem;">
+                    <img src="giftastic.png" class="card-img-top" alt="huddle">
+                    <div class="card-body">
+                        <h5 class="card-title">Giftastic!</h5>
+                        <p class="card-text">Using GIPHY API, populate the page with gifs from your favorite celebrated TV shows.</p>
+                        <a href="https://github.com/rbartl2/giftastic" class="card-link">Github</a>
+                        <a href="https://rbartl2.github.io/giftastic/" class="card-link">Deployed</a>
+                    </div>
             </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="buttons copy.jpg" alt="buttons" class="img-1">
-                </div>
-                <div class="col-md-6">
-                    <img src="earpods copy.jpg" alt="earpods" class="img-2">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="ipadboy copy.jpg" alt="ipadboy" class="img-3">
-                </div>
-                <div class="col-md-6">
-                    <img src="ipod copy.jpg" alt="ipod" class="img-4">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="tv copy.jpg" alt="tv" class="img-5">
-                </div>
+            <div class="card" style="width: 30rem; height: 26rem;">
+                    <img src="train-time.png" class="card-img-top" alt="huddle">
+                    <div class="card-body">
+                        <h5 class="card-title">Train Scheduler</h5>
+                        <p class="card-text">A train scheduler application to host arrival and departure data.</p>
+                        <a href="https://github.com/rbartl2/train-time" class="card-link">Github</a>
+                        <a href="https://rbartl2.github.io/train-time/" class="card-link">Deployed</a>
+                    </div>
             </div>
         </div>
+    </div>
 
     <footer class="footer">
-             <span class="text-dark">Copyright</span>
+        <span class="text-dark">Copyright</span>
     </footer>
     
 </body>

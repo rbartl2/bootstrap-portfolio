@@ -102,3 +102,38 @@ p {
     border-top: #4aaaa5 solid 8px;
     text-align: center;
 }
+
+.card-title{
+    text-align: left;
+}
+
+.card-text{
+    text-align: left;
+    size: 20px;
+}
+
+.card-link{
+    text-align: center;
+}
+
+.card-img-top{
+    height: 12rem;
+}
+
+.grid-3{
+    text-align: center;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.card{
+    /* margin: 20px; */
+    width: 400px;
+    height: auto;
+    display: inline-block;
+    margin: 10px;
+}
